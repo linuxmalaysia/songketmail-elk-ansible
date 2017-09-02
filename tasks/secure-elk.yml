@@ -1,5 +1,6 @@
 ---
-- hosts: elkservers
+- hosts: localhost
+###- hosts: elkservers
 
 # https://ryaneschinger.com/blog/securing-a-server-with-ansible/
 # lynis https://github.com/tommarshall/ansible-role-lynis
