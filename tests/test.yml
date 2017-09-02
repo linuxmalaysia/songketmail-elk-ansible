@@ -2,5 +2,5 @@
 - hosts: localhost
   remote_user: root
   become: true
-  roles:
-    - {roles: ../roles/secure-elk}
+  tasks:
+    - include: ../tasks/secure-elk.yml
