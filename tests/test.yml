@@ -2,4 +2,4 @@
 - hosts: localhost
   become: true
   tasks:
-    - include: ../tasks/secure-elk.yml
+    - include: tasks/secure-elk.yml
