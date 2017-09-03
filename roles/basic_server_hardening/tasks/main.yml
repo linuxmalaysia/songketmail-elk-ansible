@@ -1,5 +1,4 @@
 ---
-- name: Secure ELK host group SongketMail
 
 # https://ryaneschinger.com/blog/securing-a-server-with-ansible/
 # lynis https://github.com/tommarshall/ansible-role-lynis
