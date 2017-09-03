@@ -2,5 +2,5 @@
 - hosts: localhost
   connection: local
   become: true
-  tasks:
-    - include: ../tasks/main.yml
+  roles:
+    - {role: ../roles/basic_server_hardening}
