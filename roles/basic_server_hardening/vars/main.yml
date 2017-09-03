@@ -1,2 +1,23 @@
 ---
 # vars file for basic_server_hardening
+  vars:
+    ubuntu_common_required_packages:
+      - ufw
+      - fail2ban
+      - unattended-upgrades
+      - apt-transport-https
+
+    ubuntu_common_optional_packages:
+      - mosh
+      - vim
+      - rsnapshot
+      - chkrootkit
+      - byobu
+
+    ubuntu_common_ssh_port: 22
+    ubuntu_common_mosh_from_port: 60000
+    ubuntu_common_mosh_to_port: 60010
+
+    lynis_cron_hour: 3
+    lynis_cron_minute: 30
+    lynis_log_directory: /var/log/lynis
