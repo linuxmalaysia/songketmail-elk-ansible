@@ -3,7 +3,6 @@
 # https://ryaneschinger.com/blog/securing-a-server-with-ansible/
 # lynis https://github.com/tommarshall/ansible-role-lynis
 
-  tasks:
     - name: Update and upgrade apt packages
       become: true
       apt:
