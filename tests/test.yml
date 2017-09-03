@@ -3,4 +3,4 @@
   connection: local
   become: true
   tasks:
-    - include: ../tasks/secure-elk.yml
+    - include: ../tasks/main.yml
